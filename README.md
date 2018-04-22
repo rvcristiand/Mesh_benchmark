@@ -9,6 +9,12 @@ Estudiar la relación entre las [aplicaciones de mallas poligonales](https://git
 Hacer un benchmark (midiendo los *fps* promedio) de varias representaciones de mallas poligonales para los _boids_ del ejemplo del [FlockOfBoids](https://github.com/VisualComputing/framesjs/tree/processing/examples/Advanced/FlockOfBoids) (requiere la librería [frames](https://github.com/VisualComputing/framesjs/releases), versión ≥ 0.1.0), tanto en modo inmediato como retenido de rendering.
 
 1. Represente la malla del [boid](https://github.com/VisualComputing/framesjs/blob/processing/examples/Advanced/FlockOfBoids/Boid.pde) al menos de ~tres~ dos formas distintas.
+
+### Solución
+
+La malla de los boids se representó de dos formas distintas, con las representaciones [vertex-vertex](https://en.wikipedia.org/wiki/Polygon_mesh#Vertex-vertex_meshes) y [face-vertex](https://en.wikipedia.org/wiki/Polygon_mesh#Face-vertex_meshes)
+
+
 2. Renderice el _flock_ en modo inmediato y retenido, implementando la función ```render()``` del [boid](https://github.com/VisualComputing/framesjs/blob/processing/examples/Advanced/FlockOfBoids/Boid.pde).
 3. Haga un benchmark que muestre una comparativa de los resultados obtenidos.
 
@@ -39,7 +45,8 @@ Complete la tabla:
 
 | Integrante | github nick |
 |------------|-------------|
-|            |             |
+| Cristian Danilo Ramirez Vargas | [rvcristiand](https://github.com/rvcristiand) |
+| Edward Camilo Carrillo Estupinan | [eccarrilloe](https://github.com/eccarrilloe) |
 
 ## Entrega
 
