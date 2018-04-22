@@ -10,11 +10,6 @@ Hacer un benchmark (midiendo los *fps* promedio) de varias representaciones de m
 
 1. Represente la malla del [boid](https://github.com/VisualComputing/framesjs/blob/processing/examples/Advanced/FlockOfBoids/Boid.pde) al menos de ~tres~ dos formas distintas.
 
-### Solución
-
-La malla de los boids se representó de dos formas distintas, con las representaciones [vertex-vertex](https://en.wikipedia.org/wiki/Polygon_mesh#Vertex-vertex_meshes) y [face-vertex](https://en.wikipedia.org/wiki/Polygon_mesh#Face-vertex_meshes)
-
-
 2. Renderice el _flock_ en modo inmediato y retenido, implementando la función ```render()``` del [boid](https://github.com/VisualComputing/framesjs/blob/processing/examples/Advanced/FlockOfBoids/Boid.pde).
 3. Haga un benchmark que muestre una comparativa de los resultados obtenidos.
 
@@ -56,3 +51,7 @@ Complete la tabla:
   2. Demo.
   3. Resultados (benchmark).
   4. Conclusiones.
+
+## Solución
+
+1. La malla de los boids se representó de dos formas distintas, con las representaciones [vertex-vertex](https://en.wikipedia.org/wiki/Polygon_mesh#Vertex-vertex_meshes) y [face-vertex](https://en.wikipedia.org/wiki/Polygon_mesh#Face-vertex_meshes)
