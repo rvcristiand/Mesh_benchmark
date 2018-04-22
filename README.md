@@ -54,4 +54,6 @@ Complete la tabla:
 
 ## Solución
 
-1. La malla de los boids se representó de dos formas distintas, con las representaciones [vertex-vertex](https://en.wikipedia.org/wiki/Polygon_mesh#Vertex-vertex_meshes) y [face-vertex](https://en.wikipedia.org/wiki/Polygon_mesh#Face-vertex_meshes)
+1. La malla del _boid_ que se representa es la que aparece en el artículo [Polygon mesh](https://en.wikipedia.org/wiki/Polygon_mesh). Dicha malla se representa de dos formas distintas; con las representaciones [vertex-vertex](https://en.wikipedia.org/wiki/Polygon_mesh#Vertex-vertex_meshes) y [face-vertex](https://en.wikipedia.org/wiki/Polygon_mesh#Face-vertex_meshes). Los datos de las mallas se almacenan en archivos [JSON](https://www.json.org/) los cuales son interpretados en las clases _MeshVV_ y _MeshFV_.
+2. El _boid_ se renderiza en los modos retenido e inmediato. La implementación de dichos modos se hace en las clases _MeshVV_ y _MeshFV_. Estas clases se instancian en el constructor de _boid_.
+3. 
